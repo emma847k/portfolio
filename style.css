@@ -1,0 +1,1075 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 2.8rem;
+    text-align: center;
+
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #656565;
+
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+
+}
+
+ul {
+    list-style-type: square;
+
+}
+
+li {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+
+}
+
+a {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #656565;
+}
+
+footer {
+    background-color: #2a2a2a;
+    padding: 1.5vw 4vw;
+}
+
+.links a {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #838383;
+    text-decoration: none;
+}
+
+.links a:hover {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* ---------- NAV ---------- */
+
+nav {
+
+    /*parentindstillinger*/
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    position: fixed;
+    top: 42vh;
+
+    /*childinstillinger - sig selv */
+
+    flex-basis: 300px;
+    flex-grow: 1;
+    padding: 0vw 0vw 0vw 1.7vw;
+
+}
+
+nav img {
+
+    /*parentindstillinger*/
+
+    /*childinstillinger - sig selv */
+    width: 30px;
+    height: 30px;
+
+
+}
+
+nav .icon {
+
+    /*parentindstillinger*/
+
+    /*childinstillinger - sig selv */
+    padding: 0.5vw 0vw;
+
+}
+
+/* ---------- INDEX ---------- */
+
+/* SPLASH */
+
+#splash {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(img/background_04.png);
+    background-size: cover;
+    background-position: 50% 0%;
+    margin: 0vw 0vw 0vw 0vw;
+}
+
+/* WORK */
+
+.hide {
+    display: none;
+}
+
+video {
+    width: 100% !important;
+    height: auto !important;
+}
+
+
+#dadaisme {
+    background-image: url(img/img/dadaisme.jpg);
+    background-size: cover;
+    width: 28vw;
+    height: 28vw;
+}
+
+#exodus {
+    background-image: url(img/img/exodus.png);
+    background-size: cover;
+    width: 28vw;
+    height: 28vw;
+}
+
+#sexsamfund {
+    background-image: url(img/img/sexsamfund.png);
+    background-size: cover;
+    width: 28vw;
+    height: 28vw;
+}
+
+#minifinans {
+    background-image: url(img/img/minifinans.png);
+    background-size: cover;
+    width: 28vw;
+    height: 28vw;
+}
+
+#moonbar {
+    background-image: url(img/img/moonbar.png);
+    background-size: cover;
+    width: 28vw;
+    height: 28vw;
+}
+
+#interview {
+    background-image: url(img/img/interview);
+    background-size: cover;
+    width: 28vw;
+    height: 28vw;
+}
+
+/* WORK FLEX */
+
+#work .sectionwrapper {
+
+    /*parentindstillinger*/
+
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2vw 0vw;
+    justify-content: center;
+
+
+}
+
+#work .row {
+
+    /*parentindstillinger*/
+
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+}
+
+
+/* ---------- DADAISME ---------- */
+
+/* FIRST PIC */
+
+#dadaisme_site .first_pic {
+
+    /*parentindstillinger*/
+    background-color: #2a2a2a;
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    padding: 5vw 20vw;
+
+
+}
+
+#dadaisme_site .pic {
+
+
+    /*parentindstillinger*/
+
+    /*childinstillinger - sig selv */
+
+    flex-basis: 300px;
+    flex-grow: 1;
+
+
+}
+
+
+#dadaisme_site img {
+
+    width: 100%;
+    /*gør at billedet fylder dens parent. responsive*/
+
+}
+
+#dadaisme_site .sectionwrapper {
+    margin: 0vw 10vw;
+
+}
+
+#dadaisme_site .top {
+
+
+    /*parentindstillinger*/
+
+    display: flex;
+    flex-wrap: wrap;
+
+    /*childinstillinger - sig selv */
+
+    flex-basis: 300px;
+    flex-grow: 1;
+
+
+}
+
+#dadaisme_site .top .txt {
+
+
+    /*parentindstillinger*/
+
+
+    /*childinstillinger - sig selv */
+
+    flex-basis: 400px;
+    flex-grow: 2;
+    padding: 0vw 2vw 0vw 0vw;
+
+
+}
+
+#dadaisme_site .top .img {
+
+
+    /*parentindstillinger*/
+
+
+    /*childinstillinger - sig selv */
+
+    flex-basis: 300px;
+    flex-grow: 1;
+
+
+}
+
+#dadaisme_site .bottom {
+
+
+    /*parentindstillinger*/
+
+    display: flex;
+    flex-wrap: wrap;
+
+    /*childinstillinger - sig selv */
+
+    flex-basis: 300px;
+    flex-grow: 1;
+
+
+}
+
+
+#dadaisme_site .col {
+
+
+    /*parentindstillinger*/
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    /*childinstillinger - sig selv */
+
+    flex-basis: 300px;
+    flex-grow: 1;
+
+
+}
+
+/* ---------- EXODUS ---------- */
+
+/* FIRST PIC */
+
+#exodus_site .first_pic {
+
+    /*parentindstillinger*/
+    background-color: #2a2a2a;
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    padding: 5vw 25vw;
+
+
+}
+
+#exodus_site .pic {
+
+
+    /*parentindstillinger*/
+
+    /*childinstillinger - sig selv */
+
+    flex-basis: 300px;
+    flex-grow: 1;
+
+
+}
+
+
+#exodus_site img {
+
+    width: 100%;
+    /*gør at billedet fylder dens parent. responsive*/
+
+}
+
+#exodus_site .sectionwrapper {
+    margin: 0vw 10vw;
+
+}
+
+#exodus_site .top {
+
+
+    /*parentindstillinger*/
+
+    display: flex;
+    flex-wrap: wrap;
+
+    /*childinstillinger - sig selv */
+
+    flex-basis: 300px;
+    flex-grow: 1;
+
+
+}
+
+#exodus_site .top .txt {
+
+
+    /*parentindstillinger*/
+
+
+    /*childinstillinger - sig selv */
+
+    flex-basis: 400px;
+    flex-grow: 2;
+    padding: 0vw 2vw 0vw 0vw;
+
+
+}
+
+#exodus_site .top .img {
+
+
+    /*parentindstillinger*/
+
+
+    /*childinstillinger - sig selv */
+
+    flex-basis: 300px;
+    flex-grow: 1;
+
+
+}
+
+#exodus_site .bottom {
+
+
+    /*parentindstillinger*/
+
+    display: flex;
+    flex-wrap: wrap;
+
+    /*childinstillinger - sig selv */
+
+    flex-basis: 300px;
+    flex-grow: 1;
+
+
+}
+
+
+#exodus_site .col {
+
+
+    /*parentindstillinger*/
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    /*childinstillinger - sig selv */
+
+    flex-basis: 300px;
+    flex-grow: 1;
+
+
+}
+
+/* ---------- SEX OG SAMFUND ---------- */
+
+/* FIRST PIC */
+
+#sexsamfund_site .first_pic {
+
+    /*parentindstillinger*/
+    background-color: #2a2a2a;
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    padding: 0vw 26vw;
+
+
+}
+
+#sexsamfund_site .pic {
+
+
+    /*parentindstillinger*/
+
+    /*childinstillinger - sig selv */
+
+    flex-basis: 300px;
+    flex-grow: 1;
+
+
+}
+
+
+#sexsamfund_site img {
+
+    width: 100%;
+    /*gør at billedet fylder dens parent. responsive*/
+
+}
+
+#sexsamfund_site .sectionwrapper {
+    margin: 0vw 10vw;
+
+}
+
+#sexsamfund_site .top {
+
+
+    /*parentindstillinger*/
+
+    display: flex;
+    flex-wrap: wrap;
+
+    /*childinstillinger - sig selv */
+
+    flex-basis: 300px;
+    flex-grow: 1;
+
+
+}
+
+#sexsamfund_site .top .txt {
+
+
+    /*parentindstillinger*/
+
+
+    /*childinstillinger - sig selv */
+
+    flex-basis: 400px;
+    flex-grow: 2;
+    padding: 0vw 2vw 0vw 0vw;
+
+
+}
+
+#sexsamfund_site .top .img {
+
+
+    /*parentindstillinger*/
+
+
+    /*childinstillinger - sig selv */
+
+    flex-basis: 300px;
+    flex-grow: 1;
+
+
+}
+
+#sexsamfund_site .bottom {
+
+
+    /*parentindstillinger*/
+
+    display: flex;
+    flex-wrap: wrap;
+
+    /*childinstillinger - sig selv */
+
+    flex-basis: 300px;
+    flex-grow: 1;
+
+
+}
+
+
+#sexsamfund_site .col {
+
+
+    /*parentindstillinger*/
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    /*childinstillinger - sig selv */
+
+    flex-basis: 300px;
+    flex-grow: 1;
+
+
+}
+
+/* ---------- MINIFINANS ---------- */
+
+/* FIRST PIC */
+
+#minifinans_site .first_pic {
+
+    /*parentindstillinger*/
+    background-color: #2a2a2a;
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    padding: 0vw 26vw;
+
+
+}
+
+#minifinans_site .pic {
+
+
+    /*parentindstillinger*/
+
+    /*childinstillinger - sig selv */
+
+    flex-basis: 300px;
+    flex-grow: 1;
+
+
+}
+
+
+#minifinans_site img {
+
+    width: 100%;
+    /*gør at billedet fylder dens parent. responsive*/
+
+}
+
+#minifinans_site .sectionwrapper {
+    margin: 0vw 10vw;
+
+}
+
+#minifinans_site .top {
+
+
+    /*parentindstillinger*/
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    /*childinstillinger - sig selv */
+
+    flex-basis: 300px;
+    flex-grow: 1;
+
+
+}
+
+#minifinans_site .txt_img {
+
+
+    /*parentindstillinger*/
+
+    display: flex;
+    flex-wrap: wrap;
+
+    /*childinstillinger - sig selv */
+
+    flex-basis: 300px;
+    flex-grow: 1;
+
+
+}
+
+#minifinans_site .top .txt {
+
+
+    /*parentindstillinger*/
+
+
+    /*childinstillinger - sig selv */
+
+    flex-basis: 400px;
+    flex-grow: 2;
+    padding: 0vw 2vw 0vw 0vw;
+
+
+}
+
+#minifinans_site .top .img {
+
+
+    /*parentindstillinger*/
+
+
+    /*childinstillinger - sig selv */
+
+    flex-basis: 300px;
+    flex-grow: 1;
+
+
+}
+
+#minifinans_site .top .xtra_txt {
+
+
+    /*parentindstillinger*/
+
+
+    /*childinstillinger - sig selv */
+
+    flex-grow: 1;
+
+
+}
+
+#minifinans_site .bottom {
+
+
+    /*parentindstillinger*/
+
+    display: flex;
+    flex-wrap: wrap;
+
+    /*childinstillinger - sig selv */
+
+    flex-basis: 300px;
+    flex-grow: 1;
+
+
+}
+
+
+#minifinans_site .col {
+
+
+    /*parentindstillinger*/
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    /*childinstillinger - sig selv */
+
+    flex-basis: 300px;
+    flex-grow: 1;
+
+
+}
+
+/* ---------- MOONBAR ---------- */
+
+/* FIRST PIC */
+
+#moonbar_site .first_pic {
+
+    /*parentindstillinger*/
+    background-color: #2a2a2a;
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    padding: 1vw 40vw;
+
+
+}
+
+#moonbar_site .pic {
+
+
+    /*parentindstillinger*/
+
+    /*childinstillinger - sig selv */
+
+    flex-basis: 300px;
+    flex-grow: 1;
+
+
+}
+
+
+#moonbar_site img {
+
+    width: 100%;
+    /*gør at billedet fylder dens parent. responsive*/
+
+}
+
+#moonbar_site .sectionwrapper {
+    margin: 0vw 10vw;
+
+}
+
+#moonbar_site .top {
+
+
+    /*parentindstillinger*/
+
+    display: flex;
+    flex-wrap: wrap;
+
+    /*childinstillinger - sig selv */
+
+    flex-basis: 300px;
+    flex-grow: 1;
+
+
+}
+
+#moonbar_site .top .txt {
+
+
+    /*parentindstillinger*/
+
+
+    /*childinstillinger - sig selv */
+
+    flex-basis: 400px;
+    flex-grow: 2;
+    padding: 0vw 2vw 0vw 0vw;
+
+
+}
+
+#moonbar_site .top .img {
+
+
+    /*parentindstillinger*/
+
+
+    /*childinstillinger - sig selv */
+
+    flex-basis: 300px;
+    flex-grow: 1;
+
+
+}
+
+#moonbar_site .bottom {
+
+
+    /*parentindstillinger*/
+
+    display: flex;
+    flex-wrap: wrap;
+
+    /*childinstillinger - sig selv */
+
+    flex-basis: 300px;
+    flex-grow: 1;
+
+
+}
+
+
+#moonbar_site .col {
+
+
+    /*parentindstillinger*/
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    /*childinstillinger - sig selv */
+
+    flex-basis: 300px;
+    flex-grow: 1;
+
+
+}
+
+/* ---------- INTERVIEW ---------- */
+
+/* FIRST PIC */
+
+#interview_site .first_pic {
+
+    /*parentindstillinger*/
+    background-color: #2a2a2a;
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    padding: 1vw 31vw;
+
+
+}
+
+#interview_site .pic {
+
+
+    /*parentindstillinger*/
+
+    /*childinstillinger - sig selv */
+
+    flex-basis: 300px;
+    flex-grow: 1;
+
+
+}
+
+
+#interview_site img {
+
+    width: 100%;
+    /*gør at billedet fylder dens parent. responsive*/
+
+}
+
+#interview_site .sectionwrapper {
+    margin: 0vw 10vw;
+
+}
+
+#interview_site .top {
+
+
+    /*parentindstillinger*/
+
+    display: flex;
+    flex-wrap: wrap;
+
+    /*childinstillinger - sig selv */
+
+    flex-basis: 300px;
+    flex-grow: 1;
+
+
+}
+
+#interview_site .top .txt {
+
+
+    /*parentindstillinger*/
+
+
+    /*childinstillinger - sig selv */
+
+    flex-basis: 400px;
+    flex-grow: 2;
+    padding: 0vw 2vw 0vw 0vw;
+
+
+}
+
+#interview_site .top .img {
+
+
+    /*parentindstillinger*/
+
+
+    /*childinstillinger - sig selv */
+
+    flex-basis: 300px;
+    flex-grow: 1;
+
+
+}
+
+#interview_site .bottom {
+
+
+    /*parentindstillinger*/
+
+    display: flex;
+    flex-wrap: wrap;
+
+    /*childinstillinger - sig selv */
+
+    flex-basis: 300px;
+    flex-grow: 1;
+
+
+}
+
+
+#interview_site .col {
+
+
+    /*parentindstillinger*/
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    /*childinstillinger - sig selv */
+
+    flex-basis: 300px;
+    flex-grow: 1;
+
+
+}
+
+/* ---------- INFO ---------- */
+
+#info_splash {
+    width: 100vw;
+    height: 88vh;
+    background-image: url(img/mockup/info_mock.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    margin: 0vw 0vw 0vw 0vw;
+}
+
+
+#info_site img {
+
+    width: 100%;
+    /*gør at billedet fylder dens parent. responsive*/
+
+}
+
+#info_site .sectionwrapper {
+    margin: 0vw 10vw 6vw;
+
+}
+
+#info_site .top {
+
+
+    /*parentindstillinger*/
+
+    display: flex;
+    flex-wrap: wrap;
+
+    /*childinstillinger - sig selv */
+
+    flex-basis: 300px;
+    flex-grow: 1;
+
+
+}
+
+#info_site .top .txt {
+
+
+    /*parentindstillinger*/
+
+
+    /*childinstillinger - sig selv */
+
+    flex-basis: 400px;
+    flex-grow: 2;
+    padding: 0vw 2vw 0vw 0vw;
+
+
+}
+
+#info_site .top .img {
+
+
+    /*parentindstillinger*/
+
+
+    /*childinstillinger - sig selv */
+
+    flex-basis: 300px;
+    flex-grow: 1;
+
+
+}
+
+/* ------------- 600 ------------- */
+
+@media only screen and (max-width: 700px) {
+
+
+    #work .row {
+
+        /*parentindstillinger*/
+        flex-direction: column;
+    }
+
+    #dadaisme {
+        width: 40vw;
+        height: 40vw;
+    }
+
+    #exodus {
+        width: 40vw;
+        height: 40vw;
+    }
+
+    #sexsamfund {
+        width: 40vw;
+        height: 40vw;
+    }
+
+    #minifinans {
+        width: 40vw;
+        height: 40vw;
+    }
+
+    #moonbar {
+        width: 40vw;
+        height: 40vw;
+    }
+
+    #interview {
+        width: 40vw;
+        height: 40vw;
+    }
+
+
+
+}
